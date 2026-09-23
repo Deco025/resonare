@@ -1,0 +1,8 @@
+# KiCad transient and per-user files
+*.lck
+*-backups/
+.history/
+fp-info-cache
+*.kicad_prl
+_autosave-*
+~*

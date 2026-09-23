@@ -1,0 +1,26 @@
+** Drc report for p1_rx.kicad_pcb **
+** Created on 2026-09-23T19:19:21 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 2 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(111.0000 mm, 133.0000 mm): Segment on Edge.Cuts
+    @(111.4800 mm, 88.0000 mm): Polygon of J601 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(142.5400 mm, 84.9400 mm): Polygon of U701 on F.Silkscreen
+    @(143.2000 mm, 86.0000 mm): Pad 1 [Net-(U701-HB)] of C703 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
